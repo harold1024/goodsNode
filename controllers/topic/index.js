@@ -4,11 +4,6 @@ const {
 
 //专题列表
 async function listAction(ctx) {
-    ctx.body = {
-        "page": 1,
-        "total": 11,
-        "data": 1111
-    }
     var page = ctx.query.page || 1;
     const size = 5;
     //这里做分页处理
