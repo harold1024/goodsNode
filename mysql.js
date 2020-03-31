@@ -7,7 +7,7 @@ var knex = require('knex')({
         host: configs.mysql.host,
         port: configs.mysql.port,
         user: configs.mysql.user,
-        password: configs.mysql.pass,
+        password: configs.mysql.password,
         database: configs.mysql.db
     }
 });

@@ -3,7 +3,7 @@ const debug = require('debug')('koa-weapp-demo')
 /**
  * 响应处理模块
  */
-module.exports = async function (ctx, next) {
+module.exports = async function(ctx, next) {
     try {
         // 调用下一个 middleware
         await next()
@@ -27,5 +27,6 @@ module.exports = async function (ctx, next) {
             code: -1,
             error: e && e.message ? e.message : e.toString()
         }
+        console.log(ctx)
     }
 }

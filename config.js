@@ -5,11 +5,11 @@ const CONF = {
      * MySQL 配置
      */
     mysql: {
-        host: 'localhost',
+        host: '47.93.254.28',
         port: 3306,
-        user: '',
-        db: 'nodemysql',
-        pass: '',
+        user: 'koa',
+        db: 'koa',
+        password: 'dbNjTG7pp7CA4szn',
         char: 'utf8mb4'
     }
 }
